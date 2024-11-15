@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import DataCounter from "./Components/DataCounter";
 
 function App() {
   return (
-    <div>App</div>
-  )
+    <div>
+      <DataCounter />
+    </div>
+  );
 }
 
-export default App
+export default App;
